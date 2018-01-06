@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>sylada</title>
+
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+  <!--  Navbar  -->
+  <div class="navbar-fixed">
+    <nav class="white" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="#" class="brand-logo">sylada</a>
+        <ul class="right hide-on-med-and-down">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#about">About</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse">
+          <i class="material-icons">menu</i>
+        </a>
+      </div>
+    </nav>
+  </div>
+  <!--  Extra UL for mobile NavBar (when fixed to top)  -->
+  <ul id="nav-mobile" class="side-nav">
+    <li>
+      <a href="#">Home</a>
+    </li>
+    <li>
+      <a href="#about">About</a>
+    </li>
+    <li>
+      <a href="#contact">Contact</a>
+    </li>
+  </ul>
+
+  <!--  Header  -->
+  <section>
+    <div id="index-banner" class="parallax-container">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <div class="row valign-wrapper">
+            <div class="col m3 l3">
+              <h1 class="white-text right-align">Web done your way</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="parallax">
+        <img src="img/background1.jpg">
+      </div>
+    </div>
+  </section>
+
+  <!--  Services  -->
+  <section>
+    <div class="container">
+      <div class="section" id="services">
+        <!--   Icon Section   -->
+        <div class="row">
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center brown-text text-darken-2">
+                <i class="material-icons">flash_on</i>
+              </h2>
+              <h5 class="center">Fast</h5>
+              <p class="light center">You need a website... yesterday? No problem! Depending on your business needs, your website can be ready within
+                a couple of days time.</p>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center brown-text text-darken-2">
+                <i class="material-icons">important_devices</i>
+              </h2>
+              <h5 class="center">UX Focused</h5>
+
+              <p class="light center">Customer experience is paramount. After all, your website is the world's window to your business. I focus on
+                making that window the best looking in the neighborhood!</p>
+            </div>
+          </div>
+          <div class="col s12 m4">
+            <div class="icon-block">
+              <h2 class="center brown-text text-darken-2">
+                <i class="material-icons">settings_applications</i>
+              </h2>
+              <h5 class="center">Catered</h5>
+              <p class="light center">Want it simple, informative and elegant? Sure! Need to provide e-commerce and handle a user base? You got it!
+                I provide website functionality of all types.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  About  -->
+  <section id="about">
+    <div id="index-banner" class="parallax-container">
+      <div class="section no-pad-bot">
+        <div class="container">
+          <div class="row valign-wrapper">
+            <div class="col m3 l3 pull-m9 pull-l9">
+              <h1 class="white-text">All about your satisfaction</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="parallax">
+        <img src="img/background2.jpg">
+      </div>
+    </div>
+    <div class="container">
+      <div class="section">
+        <div class="row">
+          <div class="icon-block">
+            <h2 class="center brown-text text-darken-2">
+              <i class="material-icons">face</i>
+            </h2>
+            <div class="col s10 push-s2">
+              <p class="light">Thanks for dropping by and welcome to Sylada! My name is Sylvester Klirowski and my passion is creating beautiful websites. I formed Sylada to share this passion with the world, and hopefully help my fellow web dwellers stand out on the internet. If you are in need of a website, for either personal and business use, <a href="#contact">contact me</a> below.</p>
+              <p class="light">This website is under continual update. In the near future, I will be putting up a website development blog, as well as some web applications I'm currently developing. Feel free to stop by again soon for more info!</p>
+            </div>
+            <div class="col s2 pull-s10">
+              <img src="img/sylvester_klirowski_small.jpg" alt="" class="circle responsive-img">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--  Contact  -->
+  <section id="contact">
+    <div class="container">
+      <div class="section">
+        <div class="row">
+            <div class="icon-block">
+              <h2 class="center brown-text text-darken-2">
+                <i class="material-icons">contact_mail</i>
+              </h2>
+              <h5 class="center">Contact</h5>
+            </div>
+        </div>
+        <div class="row">
+          <form class="col s12" id="contactForm">
+            <div class="row">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">account_circle</i>
+                <input id="name" type="text" class="validate" required>
+                <label for="name" data-error="Please enter your name" data-success="&#10003;">Name</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">email</i>
+                <input id="email" type="email" class="validate" required>
+                <label for="email" data-error="Please enter your email address" data-success="&#10003;">Email</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">phone</i>
+                <input id="phone" type="tel" class="validate">
+                <label for="phone" data-error="Please enter your phone number" data-success="&#10003;">Telephone</label>
+              </div>
+            </div>
+            <div class="row">
+              <div class="input-field col s12">
+                <i class="material-icons prefix">mode_edit</i>
+                <textarea id="message" class="materialize-textarea validate" required></textarea>
+                <label for="message" data-error="Please enter your message" data-success="&#10003;">Message</label>
+              </div>
+            </div>
+            <button class="btn waves-effect waves-light right" type="submit" id="form-submit">Send<i class="material-icons right">send</i></button>
+            <div id="msgSubmit" class="hidden"></div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="page-footer brown darken-4">
+    <div class="footer-copyright">
+      <div class="container">
+        <span class="brown-text text-lighten-4" id="copyright"></span>
+        <!-- <a class="brown-text text-lighten-4 right" href="#!"><i class="fa fa-2x fa-facebook-square" aria-hidden="true"></i></a> -->
+        <a class="brown-text text-lighten-4 right" href="https://twitter.com/slyadam">
+          <i class="fa fa-2x fa-twitter-square" aria-hidden="true"></i>
+        </a>
+        <a class="brown-text text-lighten-4 right" href="https://www.linkedin.com/in/sylvesterklirowski/">
+          <i class="fa fa-2x fa-linkedin-square" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  
+  <!-- Contact Form JS -->
+  <script src="js/contact-form-scripts.js"></script>
+  <!-- Random onload functions -->
+  <script src="js/randomOnload.js"></script>
+
+</body>
+
+</html>
