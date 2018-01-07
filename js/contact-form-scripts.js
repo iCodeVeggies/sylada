@@ -27,13 +27,13 @@ var phone = $("#phone").val();
 
 $.ajax({
     type: "POST",
-    url: "php/form-process.php",
+    url: "../php/form-process.php",
     data: "message=" + message + "&name=" + name + "&email=" + email + "&phone=" + phone
 });
 
 $.ajax({
     type: "POST",
-    url: "php/contact-conf-email.php",
+    url: "../php/contact-conf-email.php",
     data: "message=" + message + "&name=" + name + "&email=" + email + "&phone=" + phone
 });
 
