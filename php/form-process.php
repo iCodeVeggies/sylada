@@ -1,7 +1,7 @@
 <?php
 /*
-  AUTHOR: SYLVESTER KLIROWSKI
-  GITHUB: https://github.com/voice4eva/
+    AUTHOR: SYLVESTER KLIROWSKI
+    GITHUB: https://github.com/icodeveggies/
 */
 $errorMSG = "";
 $fromEMAIL = "info@sylada.com";

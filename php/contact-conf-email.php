@@ -1,7 +1,7 @@
 <?php
   /*
     AUTHOR: SYLVESTER KLIROWSKI
-    GITHUB: https://github.com/voice4eva/
+    GITHUB: https://github.com/icodeveggies/
   */
  // fields
  $name = $_POST["name"];

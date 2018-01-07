@@ -28,7 +28,7 @@ console.log(message+" "+name+" "+email+" "+phone);
 
 $.ajax({
     type: "POST",
-    url: "https://sylada.com/php/form-process.php",
+    url: "php/form-process.php",
     data: "message=" + message + "&name=" + name + "&email=" + email + "&phone=" + phone
 });
 
