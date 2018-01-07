@@ -4,7 +4,7 @@
 
 $("#contactForm").submit(function (event) {
     event.preventDefault();
-    //submitForm();
+    submitForm();
     $("#contactForm")[0].reset();
 
     // Thank you toast
