@@ -1,3 +1,3 @@
 # sylada
 Sylada website files
-URL: https://sylada.com/
+URL: www.sylada.com
