@@ -12,6 +12,7 @@
  $subject = "Sylada Contact Confirmation";
  // prepare email body text (import HTML)
  $body = file_get_contents('../templates/contact-conf-email-top.html');
+ $body .= " ";
  $body .= $name;
  $body .= ",</p>
  <p>Thank you for contacting Sylada. I will be in touch with you shortly.</p>
