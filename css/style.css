@@ -95,6 +95,7 @@ button {
 }
 .toast span {
   color: #fff;
+  word-break: keep-all !important;
 }
 button.btn-flat {
   background-color: #26a69a !important;
