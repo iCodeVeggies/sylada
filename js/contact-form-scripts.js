@@ -24,10 +24,11 @@ var message = $("#message").val();
 var name = $("#name").val();
 var email = $("#email").val();
 var phone = $("#phone").val();
+console.log(message+" "+name+" "+email+" "+phone);
 
 $.ajax({
     type: "POST",
-    url: "php/form-process.php",
+    url: "https://sylada.com/php/form-process.php",
     data: "message=" + message + "&name=" + name + "&email=" + email + "&phone=" + phone
 });
 
