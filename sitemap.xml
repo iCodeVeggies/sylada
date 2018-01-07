@@ -2,7 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"> 
   <url>
     <loc>https://www.sylada.com/</loc>
+  </url>
+  <url>
     <loc>https://www.sylada.com/#about</loc>
+  </url>
+  <url>
     <loc>https://www.sylada.com/#contact</loc> 
   </url>
 </urlset>
