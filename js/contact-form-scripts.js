@@ -9,7 +9,7 @@ $("#contactForm").submit(function (event) {
 
     // Thank you toast
     var $toastContent = $("<span>Thank you for your message. A confirmation has been sent to your email address. (Check the spam folder if you don't see it in your inbox)<span>").add($('<button class="btn-flat toast-action" id="dismiss-toast">X</button>'));
-    Materialize.toast($toastContent, 15000);
+    M.toast($toastContent, 15000);
     $(document).on('click', '#dismiss-toast', function() {
         $(this).parent().remove();
     });
