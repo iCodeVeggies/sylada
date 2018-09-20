@@ -7,6 +7,7 @@
 var contactForm = document.querySelector('#contactForm');
 contactForm.addEventListener('submit', function (event) {
     event.preventDefault();
+    submitForm();
     contactForm.reset();
 
     // Thank you toast
