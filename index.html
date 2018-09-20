@@ -5,26 +5,30 @@
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="description" content="sylada">
-  <meta name="keywords" content="sylada,Website Builder,Sylvester Klirowski,Freelance Developer">
+  <meta name="keywords" content="sylada,Website Builder,Sylvester Klirowski,Freelance Developer, Tutorials">
   <meta name="author" content="Sylvester Klirowski">
-  <title>sylada</title>
+  <title>Sylada</title>
 
   <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
 </head>
 
 <body>
   <!--  Navbar  -->
-  <div class="navbar-fixed">
-    <nav class="white" role="navigation">
+  <div>
+    <nav>
       <div class="nav-wrapper container">
-        <a id="logo-container" href="#" class="brand-logo">sylada</a>
+        <a href="#" class="brand-logo">sylada</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
           <li>
             <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="tutorials.html">Tutorials</a>
           </li>
           <li>
             <a href="#about">About</a>
@@ -33,24 +37,23 @@
             <a href="#contact">Contact</a>
           </li>
         </ul>
-        <a href="#" data-activates="nav-mobile" class="button-collapse">
-          <i class="material-icons">menu</i>
-        </a>
       </div>
     </nav>
+    <ul class="sidenav" id="mobile-demo">
+      <li>
+        <a href="#">Home</a>
+      </li>
+      <li>
+        <a href="tutorials.html">Tutorials</a>
+      </li>
+      <li>
+        <a href="#about">About</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
   </div>
-  <!--  Extra UL for mobile NavBar (when fixed to top)  -->
-  <ul id="nav-mobile" class="side-nav">
-    <li>
-      <a href="#">Home</a>
-    </li>
-    <li>
-      <a href="#about">About</a>
-    </li>
-    <li>
-      <a href="#contact">Contact</a>
-    </li>
-  </ul>
 
   <!--  Header  -->
   <section>
@@ -82,7 +85,8 @@
                 <i class="material-icons">flash_on</i>
               </h2>
               <h5 class="center">Fast</h5>
-              <p class="light center">You need a website... yesterday? No problem. Depending on your business needs, your website can be ready within
+              <p class="light center">You need a website... yesterday? No problem. Depending on your business needs,
+                your website can be ready within
                 a couple of days time.</p>
             </div>
           </div>
@@ -93,7 +97,8 @@
               </h2>
               <h5 class="center">UX Focused</h5>
 
-              <p class="light center">User experience is paramount. After all, your website is the world's window to your business. I focus on
+              <p class="light center">User experience is paramount. After all, your website is the world's window to
+                your business. I focus on
                 making that window the best looking in the neighborhood.</p>
             </div>
           </div>
@@ -103,7 +108,8 @@
                 <i class="material-icons">settings_applications</i>
               </h2>
               <h5 class="center">Catered</h5>
-              <p class="light center">Want it simple, informative and elegant? Sure. Need to provide e-commerce and handle a user base? You got it.
+              <p class="light center">Want it simple, informative and elegant? Sure. Need to provide e-commerce and
+                handle a user base? You got it.
                 I provide website functionality of all types.</p>
             </div>
           </div>
@@ -136,8 +142,11 @@
               <i class="material-icons">face</i>
             </h2>
             <div class="col s10 push-s2">
-              <p class="light">Thanks for dropping by and welcome to Sylada. My name is Sylvester Klirowski and my passion is creating beautiful websites. I formed Sylada to share this passion with the world, and hopefully help my fellow web dwellers stand out on the internet. If you are in need of a website, for either personal or business use, <a href="#contact">contact me</a> below.</p>
-              <p class="light">This website is under continual update. In the near future, I will be putting up a website development blog, as well as some web applications I'm currently developing. Feel free to stop by again soon for more info.</p>
+              <p class="light">Thanks for dropping by and welcome to Sylada. My name is Sylvester Klirowski and my
+                passion is Web Development. I formed Sylada to share this passion with the world by making tutorials on various WebDev languages/tools, and hopefully help my fellow web dwellers stand out on the internet. Should you be in need of a website, for either personal or business use, <a href="#contact">contact me</a>
+              below.</p>
+              <p class="light">P.S. This website is under continual update. In the near future, I will be putting up a
+                website development blog, as well as some web applications I'm currently developing.</p>
             </div>
             <div class="col s2 pull-s10">
               <img src="img/sylvester_klirowski_small.jpg" alt="" class="circle responsive-img">
@@ -153,12 +162,12 @@
     <div class="container">
       <div class="section">
         <div class="row">
-            <div class="icon-block">
-              <h2 class="center brown-text text-darken-2">
-                <i class="material-icons">contact_mail</i>
-              </h2>
-              <h5 class="center">Contact</h5>
-            </div>
+          <div class="icon-block">
+            <h2 class="center brown-text text-darken-2">
+              <i class="material-icons">contact_mail</i>
+            </h2>
+            <h5 class="center">Contact</h5>
+          </div>
         </div>
         <div class="row">
           <form class="col s12" id="contactForm">
@@ -201,7 +210,8 @@
     <div class="footer-copyright">
       <div class="container">
         <span class="brown-text text-lighten-4" id="copyright"></span>
-        <a class="brown-text text-lighten-4 right" href="https://www.facebook.com/sylada.social"><i class="fa fa-2x fa-facebook-square" aria-hidden="true"></i></a>
+        <a class="brown-text text-lighten-4 right" href="https://www.facebook.com/sylada.social"><i class="fa fa-2x fa-facebook-square"
+            aria-hidden="true"></i></a>
         <a class="brown-text text-lighten-4 right" href="https://twitter.com/slyadam" target="_blank">
           <i class="fa fa-2x fa-twitter-square" aria-hidden="true"></i>
         </a>
@@ -213,10 +223,13 @@
   </footer>
 
   <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script src="js/init.js"></script>
-  
+
   <!-- Contact Form JS -->
   <script src="js/contact-form-scripts.js"></script>
   <!-- Random onload functions -->

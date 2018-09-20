@@ -1,10 +1,11 @@
 /* Custom Stylesheet */
-/**
- * Use this file to override Materialize files so you can update
- * the core Materialize files in the future
- *
- * Made By MaterializeCSS.com
- */
+nav {
+  background-color: #fff;
+}
+
+nav a {
+  color: #444;
+}
 
 nav ul a,
 nav .brand-logo {
@@ -45,6 +46,12 @@ p {
   }
 }
 
+@media (min-width: 993px) {
+  nav .brand-logo {
+    padding-left: .5em;
+  }
+}
+
 .icon-block {
   padding: 0 15px;
 }
@@ -56,13 +63,20 @@ footer.page-footer {
   margin: 0;
 }
 
-/**
- * BELOW ADDED BY SYLVESTER KLIROWSKI
- */
-
 .valign-wrapper {
   height: 300px;
   color: #eee;
+}
+
+/* STICKY FOOTER */
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
 }
 
 /* FOOTER */
@@ -98,5 +112,6 @@ button {
   word-break: keep-all !important;
 }
 button.btn-flat {
-  background-color: #26a69a !important;
+  background-color: #5d4037 !important;
+  color: #fff;
 }

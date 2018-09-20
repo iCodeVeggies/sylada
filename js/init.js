@@ -1,8 +1,20 @@
-(function($){
-  $(function(){
+/* PARALLAX */
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.parallax');
+  var options = {};
+  var instances = M.Parallax.init(elems, options);
+});
 
-    $('.button-collapse').sideNav();
-    $('.parallax').parallax();
+/* SIDENAV */
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.sidenav');
+  var options = {};
+  var instances = M.Sidenav.init(elems, options);
+});
 
-  }); // end of document ready
-})(jQuery); // end of jQuery name space
+/* MODALS */
+document.addEventListener('DOMContentLoaded', function() {
+  var elems = document.querySelectorAll('.modal');
+  var options = {};
+  var instances = M.Modal.init(elems, options);
+});
