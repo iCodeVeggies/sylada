@@ -34,7 +34,6 @@ p {
 /* CARD */
 .card {
   border-width: 1em;
-  white-space: nowrap;
 }
 
 .card .card-content {
